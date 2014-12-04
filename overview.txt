@@ -2,6 +2,7 @@ autojump
 etckeeper
 cp foo{src,dst}
 ^find^replace
+tail -f *
 \x auto
 \timing
 PostgreSQL date range
