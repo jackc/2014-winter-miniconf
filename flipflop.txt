@@ -1,0 +1,5 @@
+ruby -e 'puts 42'
+
+ruby -n -e 'puts 42' < giant.log
+
+ruby -n -e 'puts $_ if /BEGIN/../END/' < giant.log
